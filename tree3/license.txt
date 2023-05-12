@@ -1,0 +1,11 @@
+Model Information:
+* title:	A fantasy tree
+* source:	https://sketchfab.com/3d-models/a-fantasy-tree-bc7547be2e554125b3917bd2b80b8866
+* author:	michael_grodkowski (https://sketchfab.com/michael_grodkowski)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "A fantasy tree" (https://sketchfab.com/3d-models/a-fantasy-tree-bc7547be2e554125b3917bd2b80b8866) by michael_grodkowski (https://sketchfab.com/michael_grodkowski) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

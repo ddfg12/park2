@@ -1,0 +1,11 @@
+Model Information:
+* title:	SG Swing Gate
+* source:	https://sketchfab.com/3d-models/sg-swing-gate-092c6341f7aa487da3a7014085d09508
+* author:	Boplan® Group (https://sketchfab.com/boplan)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SG Swing Gate" (https://sketchfab.com/3d-models/sg-swing-gate-092c6341f7aa487da3a7014085d09508) by Boplan® Group (https://sketchfab.com/boplan) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
