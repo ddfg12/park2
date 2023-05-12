@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene background="color:white">
+
+    
+
+    <!-------------------------------------------Asset Management------------------------------------------->
+    <a-assets timeout="10000">
+        <!---ground-->
+      <a-asset-item id="ground" src="./models/simple_grass_ground/scene.gltf"></a-asset-item>
+        <!-----tree1------->
+      <a-asset-item id="tree1" src="./models/tree1/scene.gltf"></a-asset-item>
+        <!-----tree2------->
+      <a-asset-item id="tree2" src="./models/tree2/scene.gltf"></a-asset-item>
+        <!-----tree3------->
+      <a-asset-item id="tree3" src="./models/tree3/scene.gltf"></a-asset-item>
+        <!-----bench------->
+      <a-asset-item id="bench" src="./models/bench/scene.gltf"></a-asset-item>
+        <!-----women1------->
+      <a-asset-item id="women1" src="./models/woman1/scene.gltf"></a-asset-item>
+        <!-----women2------->
+      <a-asset-item id="women2" src="./models/woman2/scene.gltf"></a-asset-item>
+        <!-----men1------->
+      <a-asset-item id="men1" src="./models/men1/scene.gltf"></a-asset-item>
+        <!-----men2------->
+      <a-asset-item id="men2" src="./models/men2/scene.gltf"></a-asset-item>
+        <!-----cat------->
+      <a-asset-item id="cat" src="./models/cat/scene.gltf"></a-asset-item>
+        
+      
+
+    
+
+      <img id="bg" src="./image/sky.jpg">
+
+    </a-assets>
+
+    <a-sky src="#bg"></a-sky>
+
+   
+    <!--ground-->
+    <a-entity>
+      <a-entity position="-3 0 -8"  scale="5 5 5" gltf-model="#ground" shadow="cast: true;">
+      </a-entity>
+    </a-entity>
+
+    <!--bench-->
+    <a-entity>
+        <a-entity position="-7 0 -9.5"  scale="0.03 0.03 0.03" gltf-model="#bench" shadow="cast: true;">
+        </a-entity>
+    </a-entity>
+
+    <!--trees-->
+    <a-entity>
+      <a-entity position="-9 0 -9.5"  scale="0.03 0.03 0.03" gltf-model="#tree1" shadow="cast: true">
+      </a-entity>
+
+      <a-entity position="6 0 -9.9"  scale="0.5 0.5 0.5" gltf-model="#tree2" shadow="cast: true;">
+      </a-entity>
+
+      <a-entity position="-9 0 0.5"  scale="0.2 0.2 0.2" gltf-model="#tree3" shadow="cast: true;">
+      </a-entity>
+
+       
+    </a-entity>
+
+    <!---people--->
+    <a-entity>
+     <a-entity position="-0 0 -9.5"  scale="2 2 2" gltf-model="#women1" shadow="cast: true;">
+     </a-entity>
+
+     <a-entity position="-4 0 -6"  scale="2 2 2" gltf-model="#women2" shadow="cast: true;">
+     </a-entity>
+
+     <a-entity position="3 0 -7"  scale="2 2 2" gltf-model="#men1" shadow="cast: true;">
+     </a-entity>
+
+     <a-entity position="3 0 -4"  scale="1.7 1.7 1.7" gltf-model="#men2" shadow="cast: true;">
+     </a-entity>
+
+     <a-entity position="1 0 -3"  scale="2 2 2" gltf-model="#cat" shadow="cast: true;">
+     </a-entity>
+
+    </a-entity>
+    
+
+    
+    
+
+  </a-scene>
+</body>
+
+</html>
